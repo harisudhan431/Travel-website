@@ -1,0 +1,198 @@
+.nav-item:hover{
+  background-color: #473D3A;
+  color: white;
+}
+
+.nav-item{
+  font-size: 20px;
+  color: #000;
+}
+  /*
+.logo{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+}*/
+  
+#home{
+  margin-top: 75px;
+    width: 100%;
+    height: 100vh;
+    background-image:url(./Untitled\ design\ \(3\).png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    /* background-attachment: fixed; */
+     font-family: 'Roboto', sans-serif;
+}
+      
+.content{
+  padding-top: 50px;
+  margin-left: 56px;
+}
+.content h3{
+  font-size: 50px;
+  color: #b25e39;
+}
+.content p{
+  margin-top: 10px;
+  color:#473D3A;
+  font-size: 35PX;
+}
+.fs{
+  font-size: 20px;
+}
+
+#btn{
+  width: 150px;
+  height: 36px;
+  margin-top: 20px;
+  background: #b25e39;
+  color: #473D3A;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#btn:hover{
+  background: #473D3A;
+  color: #b25e39;
+}
+@media screen and (max-width:982px){
+    #home p{
+      font-size: 28px;
+    }
+    #home h3{
+        font-size: 30px;
+    }
+  }
+  @media screen and (max-width:766px){
+    #home p{
+      font-size: 25px;
+    }
+    #home h3{
+        font-size:30px ;
+    }
+    /* .content{
+        /* padding-top: 430px; 
+        margin-left: 26px;
+      } */
+  }
+#abouts{
+    background: rgb(222, 208, 208);
+  }/*
+  #abouts .container{
+    padding-top: 70px;
+  }
+  .heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }*/
+  #heading span{
+    color: #b25e39;
+  }
+  /*
+  #abouts .card{
+    border-radius: 10px;
+  }
+  #abouts .card img{
+    border-radius: 10px;
+  }*/
+  #abouts-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    background-color:  #473D3A;
+    color: #b25e39;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  #abouts-btn:hover{
+    background: #b25e39;
+    color: #473D3A;
+  }/*
+  @media screen and (max-width:982px){
+    #abouts p{
+      font-size: 8px;
+    }
+  }
+  @media screen and (max-width:766px){
+    #abouts p{
+      font-size: 15px;
+    }
+    #abouts{
+      height: 120vh;
+    }
+  }*/
+  #service{
+    background:#d1c1bc;
+  }/*
+  #service .container{
+    padding-top: 70px;
+  }
+  .card {
+    position: relative;
+    width: 100%;
+  }
+  
+  .img-fluid {
+    display: block;
+    width: 100%;
+    height:300px;
+}*/
+  
+#one{
+  height: 150px !important;
+}
+/*
+
+  .card-img-overlay {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #a1d1e1;
+  }
+  
+  .card:hover .card-img-overlay {
+    opacity: 1;
+  }
+  
+  .type {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  #contact .container{
+    padding-top: 70px;
+  }
+  #contact{
+    width: 100%;
+    height: 85vh;
+    background:#e2d8d6;
+  }
+  @media screen and (max-width:982px){
+    #contact {
+    height: 100vh;
+    }
+  }
+  @media screen and (max-width:766px){
+    #contact{
+      height:120vh;
+    }
+  } */
